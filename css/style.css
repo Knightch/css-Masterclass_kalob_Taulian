@@ -1,5 +1,5 @@
 .overflow__scroll{
     border: 1.5px solid red;
     height: 400px;
-    overflow: scroll;
+    overflow: auto;
 }
