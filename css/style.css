@@ -1,84 +1,20 @@
-li{
-    border: 1px solid #000;
-    width: 50px;
-    padding: 20px;
-}
-ol{
-    list-style-type: none;
-}
 
-table{
-    border: 1px solid #ccc;
-    border-collapse: collapse;
-}
-
-table th{
-    padding: 5px;
-    margin: 0;
-    text-align: center;
-    font-weight: bold;
-}
-
-thead{
-    background-color: tomato;
-}
-
-thead ,th{
-    border-bottom: 1px solid #ccc;
-}
-
-tfoot ,th{
-    border-bottom: 1px solid #ccc;
-}
-
-table td {
-    font-size: 20px;
-    text-align: center;
-}
-tfoot{
-    background-color:tomato;
-}
-table tbody tr:hover{
-    background-color: #fff;
-}
-table tbody tr:hover td:hover {
-    background-color: #333;
-    color: white;
-}
-
- .inline{
-     display: inline;
-     border: 3px solid tomato;
- }
- h2{
-     font-size: 30px;
- }
- .inline__display{
-     display: inline;
-     text-decoration: underline;
-     font-size: 15px;
- }
- .inline-block__display{
-     display: inline-block;
-     border: 2px solid yellowgreen;
- }
- .square {
-     width: 100px;
-     height: 100px;
-     text-align: center;
- }
-
- /* block shows default width */
- .blockTest__height-width{
-     display: block;
-     border: 2px solid tomato;
-     height: 30px; 
-     width: 30px;
- }
- /* inline-block has no any defaul width value */
- .inline-blockTest__height-width{
+ .pos__rel{
     display: inline-block;
-    border: 2px solid rgb(30, 210, 241);
-    height: 30px;
-    width: 30px;
+     border:1px solid red;
+     background-color: white; 
+     width:100%;
+     height: 400px; 
+     position: relative;
+ }
+ .pos__abso{
+     border: 1px solid blue;
+     background-color: blue;
+     color: #fff;
+     display: inline-block;
+     width: 50px;
+     height: 50px;
+     position: absolute;
+     left: calc(50% - 25px);
+     top: calc(50% - 100px);;
  }
